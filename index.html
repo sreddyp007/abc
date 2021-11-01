@@ -1,0 +1,106 @@
+<header class="main_header">
+  <h1>Alfresco BPM Inventory</h1>
+</header>
+<table class="main-table">
+  <tr>
+    <td class="table_border">OCP Cluster</td>
+    <td>
+      <table>
+        <tr>
+          <th class="table_border" colspan="5">Alfresco Modeler</th>
+        </tr>
+        <tr class="inner_grid">
+          <td class="header_namespace_width">NAMESPACES</td>
+          <td class="header_region_width">Region</td>
+          <td class="header_route_width">Route</td>
+          <td class="header_postgres_width">PostgreSQL</td>
+          <td class="header_pods_width">PODS</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="table_border">aws-useast1-apps-dev-1</td>
+    <td>
+      <table>
+        <tr class="inner_grid">
+          <td class="table_namespace_width">alfresco-activiti-bpm-sandbox</td>
+          <td class="table_region_width">sandbox</td>
+          <td class="table_route_width">
+            <a href="#">bpmcoe-sandbox-modeler</a>
+          </td>
+          <td class="table_postgres_width">rds Inst pgsql-2bd2afd9-7688-496c-8f2c 1b8cd48b3848, db bpmcoemodelerdb, schema s_modelsvc, s_idmsvc</td>
+          <td class="table_pods_width"></td>
+        </tr>
+        <tr>
+        <tr class="inner_grid">
+          <td class="table_namespace_width">alfresco-activiti workspace-dev</td>
+          <td class="table_region_width">Dev</td>
+          <td class="table_route_width">
+            <a href="#">Dev modeler for App Teams</a>
+          </td>
+          <td class="table_postgres_width">rdsInst pgsql-9427e95b-583a-4e40-93a2 093e598eafe6, db alfrescomodeler, schema modelsvc, idmsvc</td>
+          <td class="table_pods_width"></td>
+        </tr>
+        <tr>
+        <tr class="inner_grid">
+          <td class="table_namespace_width">alfresco-activiti enterprise-dev</td>
+          <td class="table_region_width">Dev</td>
+          <td class="table_route_width">
+            <a href="#">Alfresco- Identity-Service [Dey. QA]</a>
+          </td>
+          <td class="table_postgres_width">rds Inst pgsql-256b10-b72d-4b4c-b6dc 64724b8404f4, db identitysve, schema idmdb</td>
+          <td class="table_pods_width"></td>
+        </tr>
+        <tr>
+          <th class="table_border" colspan="5">AML-ECOSYSTEM</th>
+        </tr>
+        <tr class="inner_grid">
+          <td>NAMESPACES</td>
+          <td>Region</td>
+          <td>Route</td>
+          <td>PostgreSQL</td>
+          <td>PODS</td>
+        </tr>
+        <tr class="inner_grid">
+          <td class="table_namespace_width">aml-ecosystem-dev</td>
+          <td class="table_region_width">Dev</td>
+          <td class="table_route_width">
+            <a href="#">Graphiql</a>
+          </td>
+          <td class="table_postgres_width">rdsInstance ID: pgsql-1b5e6f77-2825-46dd 8a83-c02c548873fc databaseName: amlappsvcdb schemas: querysvc1, rbl</td>
+          <td class="table_pods_width">amlappsvc-*</td>
+        </tr>
+        <tr class="inner_grid">
+          <td class="table_namespace_width"></td>
+          <td class="table_region_width"></td>
+          <td class="table_route_width">
+            <a href="#">console-rabbitmq</a>
+          </td>
+          <td class="table_postgres_width"></td>
+          <td class="table_pods_width">amlappsvc-rabbitmq-ha-*</td>
+        </tr>
+
+        <tr class="inner_grid">
+          <td class="table_namespace_width">aml-ecosystem-qa</td>
+          <td class="table_region_width">QA</td>
+          <td class="table_route_width">
+            <a href="#">Graphiql</a>
+          </td>
+          <td class="table_postgres_width">rdsInstance ID: pgsql-b53ce20b-3aee-4b77- 954c-74c4e98c697a databaseName: amlappsveqa Schemas: querysvcl, rbl</td>
+          <td class="table_pods_width">alfresco-svcs-*</td>
+        </tr>
+        <tr class="inner_grid">
+          <td class="table_namespace_width"></td>
+          <td class="table_region_width"></td>
+          <td class="table_route_width">
+            <a href="#">console-rabbitmq</a>
+          </td>
+          <td class="table_postgres_width"></td>
+          <td class="table_pods_width">alfresco-svcs rabbitmq-ha-*</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
