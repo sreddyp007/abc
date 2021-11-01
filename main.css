@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main_header {
+  width: 100vw;
+  background-color: #ff0c00;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-table {
+  margin: 0 auto;
+  border: 1px solid;
+  background-color: #ffbf0091;
+}
+
+.table_border {
+  border: 1px solid;
+}
+.inner_grid td {
+  border: 1px solid;
+  word-wrap: break-word;
+}
+
+.header_namespace_width {
+  width: 110px;
+}
+.table_namespace_width {
+  max-width: 110px;
+}
+.header_region_width {
+  width: 70px;
+}
+.table_region_width {
+  width: 70px;
+  max-width: 70px;
+}
+.header_route_width {
+  width: 85px;
+}
+.table_route_width {
+  width: 85px;
+  max-width: 85px;
+}
+
+.header_postgres_width {
+  width: 200px;
+}
+.table_postgres_width {
+  width: 200px;
+  max-width: 200px;
+}
+.header_pods_width {
+  width: 100px;
+}
+.table_pods_width {
+  width: 100px;
+  max-width: 100px;
+}
