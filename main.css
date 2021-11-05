@@ -3,7 +3,10 @@
   margin: 0;
   text-align: center;
 }
-
+ .intro_stuff{
+  margin: 40px;
+  text-align: left;
+}
 .main_header {
   width: 100vw;
   background-color: #ff0c00;
@@ -14,11 +17,18 @@
   color: white;
 }
 .main-table {
-  margin: 0 auto;
+  margin: 0 left;
   border: 1px solid;
+  margin-left: 40px;
   background-color: #ffbf0091;
 }
 
+.instana-tables {
+  margin: 0 left;
+  border: 1px solid;
+  margin-left: 150px;
+  background-color: #ffbf0091;
+}
 .table_border {
   border: 1px solid;
 }
