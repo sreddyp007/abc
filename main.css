@@ -15,19 +15,23 @@
   justify-content: center;
   align-items: center;
   color: white;
+  margin-bottom:15px;
+}
+.table-container{
+  display:flex;
+  justify-content: space-evenly;
 }
 .main-table {
   margin: 0 left;
   border: 1px solid;
-  margin-left: 40px;
   background-color: #ffbf0091;
 }
 
 .instana-tables {
   margin: 0 left;
   border: 1px solid;
-  margin-left: 150px;
   background-color: #ffbf0091;
+  align-self:auto;
 }
 .table_border {
   border: 1px solid;
@@ -71,5 +75,11 @@
 .table_pods_width {
   width: 100px;
   max-width: 100px;
+}
+
+.instana-tables {
+  align-self: flex-start;
+  width: 200px;
+  max-width: 200px;
 }
 
